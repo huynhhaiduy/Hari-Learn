@@ -13,7 +13,7 @@ app.use(express.json());
 // app.use(cors());
 app.use(
   cors({
-    origin: process.env.NODE_ENV === 'production' ? 'https://venerable-licorice-89c550.netlify.app' : '*',
+    origin: process.env.NODE_ENV === 'production' ? 'https://luxury-kashata-6b6a6c.netlify.app' : '*',
     optionsSuccessStatus: 200,
     methods: 'GET,PUT,POST,DELETE',
   })
