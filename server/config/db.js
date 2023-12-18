@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dbUri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@app-learnit.8ssubr2.mongodb.net/?retryWrites=true&w=majority`;
+const dbUri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.devkxas.mongodb.net/?retryWrites=true&w=majority`;
 
 mongoose.set('strictQuery', false);
 
