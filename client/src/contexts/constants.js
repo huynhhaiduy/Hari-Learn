@@ -1,7 +1,7 @@
 export const apiUrl =
   process.env.NODE_ENV !== "production"
     ? "http://localhost:5000/api"
-    : "somedeployURL"
+    : "https://blooming-cliffs-15450-3c9b079f44b5.herokuapp.com/api"
 
 export const LOCAL_STORAGE_TOKEN_NAME = "harilearn-mern"
 
