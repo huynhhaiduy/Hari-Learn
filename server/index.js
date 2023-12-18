@@ -13,7 +13,7 @@ app.use(express.json());
 // app.use(cors());
 app.use(
   cors({
-    origin: process.env.NODE_ENV === 'production' ? 'http://localhost:5000' : '*',
+    origin: process.env.NODE_ENV === 'production' ? 'http://delightful-marigold-08b182.netlify.app' : '*',
     optionsSuccessStatus: 200,
     methods: 'GET,PUT,POST,DELETE',
   })
